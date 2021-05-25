@@ -1,0 +1,29 @@
+.Blog{
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        li{
+            display: inline-block;
+            margin: 20px;
+            
+            a{
+                text-decoration: none;
+                color: #231f20;
+                &:active{
+                    color: #fa923f;
+                }
+                &:hover{
+                    color: #fa923f;
+                }
+                &.active{
+                    border-bottom: 4px solid #ffcc00;
+                }
+            }
+        }
+    }
+    
+}
